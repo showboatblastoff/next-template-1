@@ -513,7 +513,7 @@
                           {
                             "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}"
                           },
-                          "/1a73d2bf549ce6586e0ea4dd2c3a443c838df87a85c7bc8376d276f376a2d9b4.json"
+                          "/7a97a8f1acfb9a2659cfd41e75dada29bccb08a7e26b360e88773b5e25879a96.json"
                         ]
                       ]
                     }
@@ -769,7 +769,7 @@
                               ]
                             },
                             "definitionS3Location": {
-                              "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/8f3653ddb92c8525f411d6998118c569b92fe8006e89796d37264f5907c9f49d.graphql"
+                              "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/b4b49e039d1d7629e8991789de770ed2575a617054a03520a7ad7d38ad519364.graphql"
                             }
                           }
                         },
@@ -790,7 +790,7 @@
                                 "ApiId"
                               ]
                             },
-                            "expires": 1735868593
+                            "expires": 1735872347
                           }
                         },
                         "constructInfo": {
@@ -1195,7 +1195,7 @@
                                       "s3Bucket": {
                                         "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}"
                                       },
-                                      "s3Key": "ceafeabd15da961c098d25de257c4480ca482e43c1681000eedc2706dacae760.zip"
+                                      "s3Key": "ca9699b9a2845c45e80cba1111f95ae2ac773af7d87163ae9c808ec547e38e00.zip"
                                     },
                                     "description": "AmplifyManagedTable - onEvent (amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider)",
                                     "environment": {
@@ -1255,7 +1255,7 @@
                                       "s3Bucket": {
                                         "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}"
                                       },
-                                      "s3Key": "ceafeabd15da961c098d25de257c4480ca482e43c1681000eedc2706dacae760.zip"
+                                      "s3Key": "ca9699b9a2845c45e80cba1111f95ae2ac773af7d87163ae9c808ec547e38e00.zip"
                                     },
                                     "description": "AmplifyManagedTable - isComplete (amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider)",
                                     "handler": "amplify-table-manager-handler.isComplete",
@@ -1531,7 +1531,7 @@
                                   {
                                     "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}"
                                   },
-                                  "/1865c0135d6768f9e2c3b3f555f744c153c6890e90e406f396ba6e04ffe2f4d2.json"
+                                  "/e93ea0743dd8c2edc202089dc42ac659c29eccf7b67970aae5fb1c8d51f95c02.json"
                                 ]
                               ]
                             }
@@ -4826,7 +4826,7 @@
                                   {
                                     "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}"
                                   },
-                                  "/ec89417a87e131343219016819e21adbdeca60798f7a554463e63349bbb7e7ad.json"
+                                  "/bcdcebfb483b57927f78096df381eec13bd89846a74d56bd8fd6d89586d5b40f.json"
                                 ]
                               ]
                             }
@@ -5150,7 +5150,7 @@
                 },
                 "constructInfo": {
                   "fqn": "@aws-amplify/graphql-api-construct.AmplifyGraphqlApi",
-                  "version": "1.15.1"
+                  "version": "1.18.2"
                 }
               },
               "DynamoDBModelTableReadIOPS": {
@@ -5692,7 +5692,7 @@
                           {
                             "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}"
                           },
-                          "/9640dc8387300dd1ab4f867c8846074fef5eb9285e46279dfb9b10ccfdcb4352.json"
+                          "/ef4a337211ea77b56e826308f99c6c05af3c791e96627b1fd74e873e9a0ab5ac.json"
                         ]
                       ]
                     }

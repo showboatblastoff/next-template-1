@@ -1,5 +1,5 @@
 {
- "Description": "{\"createdOn\":\"Mac\",\"createdBy\":\"AmplifySandbox\",\"createdWith\":\"1.3.2\",\"stackType\":\"auth-Cognito\",\"metadata\":{}}",
+ "Description": "{\"createdOn\":\"Mac\",\"createdBy\":\"AmplifySandbox\",\"createdWith\":\"1.5.0\",\"stackType\":\"auth-Cognito\",\"metadata\":{}}",
  "Resources": {
   "amplifyAuthUserPool4BA7F805": {
    "Type": "AWS::Cognito::UserPool",
@@ -96,6 +96,8 @@
      "Ref": "amplifyAuthUserPool4BA7F805"
     }
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/auth/amplifyAuth/UserPoolAppClient/Resource"
    }
@@ -142,6 +144,8 @@
     ],
     "SupportedLoginProviders": {}
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/auth/amplifyAuth/IdentityPool"
    }
@@ -186,6 +190,8 @@
      }
     ]
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/auth/amplifyAuth/authenticatedUserRole/Resource"
    }
@@ -230,6 +236,8 @@
      }
     ]
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/auth/amplifyAuth/unauthenticatedUserRole/Resource"
    }
@@ -284,6 +292,8 @@
     "amplifyAuthIdentityPool3FDE84CC",
     "amplifyAuthUserPoolAppClient2626C6F8"
    ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/auth/amplifyAuth/IdentityPoolRoleAttachment"
    }

@@ -553,6 +553,8 @@
      }
     ]
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/TodoIAMRole/Resource"
    }
@@ -606,6 +608,8 @@
    "DependsOn": [
     "TodoIAMRole2DA8E66E"
    ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/TodoDataSource/Resource"
    }
@@ -626,6 +630,8 @@
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/QuerygetTodoauth0Function/QuerygetTodoauth0Function.AppSyncFunction"
    }
@@ -646,6 +652,8 @@
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/QuerygetTodopostAuth0Function/QuerygetTodopostAuth0Function.AppSyncFunction"
    }
@@ -674,6 +682,8 @@
    "DependsOn": [
     "TodoDataSource"
    ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/QueryGetTodoDataResolverFn/QueryGetTodoDataResolverFn.AppSyncFunction"
    }
@@ -770,6 +780,8 @@
     "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
     "TypeName": "Query"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/queryGetTodoResolver"
    }
@@ -790,6 +802,8 @@
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/QuerylistTodosauth0Function/QuerylistTodosauth0Function.AppSyncFunction"
    }
@@ -810,6 +824,8 @@
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/QuerylistTodospostAuth0Function/QuerylistTodospostAuth0Function.AppSyncFunction"
    }
@@ -838,6 +854,8 @@
    "DependsOn": [
     "TodoDataSource"
    ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/QueryListTodosDataResolverFn/QueryListTodosDataResolverFn.AppSyncFunction"
    }
@@ -934,6 +952,8 @@
     "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
     "TypeName": "Query"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/queryListTodosResolver"
    }
@@ -954,6 +974,8 @@
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/MutationcreateTodoinit0Function/MutationcreateTodoinit0Function.AppSyncFunction"
    }
@@ -974,6 +996,8 @@
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/MutationcreateTodoauth0Function/MutationcreateTodoauth0Function.AppSyncFunction"
    }
@@ -994,6 +1018,8 @@
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/MutationcreateTodopostAuth0Function/MutationcreateTodopostAuth0Function.AppSyncFunction"
    }
@@ -1022,6 +1048,8 @@
    "DependsOn": [
     "TodoDataSource"
    ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/MutationCreateTodoDataResolverFn/MutationCreateTodoDataResolverFn.AppSyncFunction"
    }
@@ -1124,6 +1152,8 @@
     "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
     "TypeName": "Mutation"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/mutationCreateTodoResolver"
    }
@@ -1144,6 +1174,8 @@
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/MutationupdateTodoinit0Function/MutationupdateTodoinit0Function.AppSyncFunction"
    }
@@ -1172,6 +1204,8 @@
    "DependsOn": [
     "TodoDataSource"
    ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/MutationupdateTodoauth0Function/MutationupdateTodoauth0Function.AppSyncFunction"
    }
@@ -1192,6 +1226,8 @@
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/MutationupdateTodopostAuth0Function/MutationupdateTodopostAuth0Function.AppSyncFunction"
    }
@@ -1220,6 +1256,8 @@
    "DependsOn": [
     "TodoDataSource"
    ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/MutationUpdateTodoDataResolverFn/MutationUpdateTodoDataResolverFn.AppSyncFunction"
    }
@@ -1322,6 +1360,8 @@
     "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
     "TypeName": "Mutation"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/mutationUpdateTodoResolver"
    }
@@ -1350,6 +1390,8 @@
    "DependsOn": [
     "TodoDataSource"
    ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/MutationdeleteTodoauth0Function/MutationdeleteTodoauth0Function.AppSyncFunction"
    }
@@ -1370,6 +1412,8 @@
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/MutationdeleteTodopostAuth0Function/MutationdeleteTodopostAuth0Function.AppSyncFunction"
    }
@@ -1398,6 +1442,8 @@
    "DependsOn": [
     "TodoDataSource"
    ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/MutationDeleteTodoDataResolverFn/MutationDeleteTodoDataResolverFn.AppSyncFunction"
    }
@@ -1494,6 +1540,8 @@
     "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
     "TypeName": "Mutation"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/mutationDeleteTodoResolver"
    }
@@ -1514,6 +1562,8 @@
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/SubscriptiononCreateTodoauth0Function/SubscriptiononCreateTodoauth0Function.AppSyncFunction"
    }
@@ -1534,6 +1584,8 @@
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/SubscriptiononCreateTodopostAuth0Function/SubscriptiononCreateTodopostAuth0Function.AppSyncFunction"
    }
@@ -1556,6 +1608,8 @@
      "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/e0cff47fb007f0bbf2a4e43ca256d6aa7ec109821769fd79fa7c5e83f0e7f9fc.vtl"
     }
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/SubscriptionOnCreateTodoDataResolverFn/SubscriptionOnCreateTodoDataResolverFn.AppSyncFunction"
    }
@@ -1625,6 +1679,8 @@
     "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
     "TypeName": "Subscription"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/subscriptionOnCreateTodoResolver"
    }
@@ -1645,6 +1701,8 @@
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/SubscriptiononUpdateTodoauth0Function/SubscriptiononUpdateTodoauth0Function.AppSyncFunction"
    }
@@ -1665,6 +1723,8 @@
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/SubscriptiononUpdateTodopostAuth0Function/SubscriptiononUpdateTodopostAuth0Function.AppSyncFunction"
    }
@@ -1687,6 +1747,8 @@
      "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/e0cff47fb007f0bbf2a4e43ca256d6aa7ec109821769fd79fa7c5e83f0e7f9fc.vtl"
     }
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/SubscriptionOnUpdateTodoDataResolverFn/SubscriptionOnUpdateTodoDataResolverFn.AppSyncFunction"
    }
@@ -1756,6 +1818,8 @@
     "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
     "TypeName": "Subscription"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/subscriptionOnUpdateTodoResolver"
    }
@@ -1776,6 +1840,8 @@
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/SubscriptiononDeleteTodoauth0Function/SubscriptiononDeleteTodoauth0Function.AppSyncFunction"
    }
@@ -1796,6 +1862,8 @@
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/SubscriptiononDeleteTodopostAuth0Function/SubscriptiononDeleteTodopostAuth0Function.AppSyncFunction"
    }
@@ -1818,6 +1886,8 @@
      "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/e0cff47fb007f0bbf2a4e43ca256d6aa7ec109821769fd79fa7c5e83f0e7f9fc.vtl"
     }
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/SubscriptionOnDeleteTodoDataResolverFn/SubscriptionOnDeleteTodoDataResolverFn.AppSyncFunction"
    }
@@ -1887,6 +1957,8 @@
     "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
     "TypeName": "Subscription"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/subscriptionOnDeleteTodoResolver"
    }
@@ -1909,6 +1981,8 @@
      "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/064303962e481067b44300212516363b99aaee539b6bafaf756fdd83ff0b60f0.vtl"
     }
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/TodoOwnerDataResolverFn/TodoOwnerDataResolverFn.AppSyncFunction"
    }
@@ -1966,6 +2040,8 @@
     "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
     "TypeName": "Todo"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/Todo/todoOwnerResolver"
    }

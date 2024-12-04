@@ -1,5 +1,5 @@
 {
- "Description": "{\"createdOn\":\"Mac\",\"createdBy\":\"AmplifySandbox\",\"createdWith\":\"1.15.1\",\"stackType\":\"api-AppSync\",\"metadata\":{\"dataSources\":\"dynamodb\"}}",
+ "Description": "{\"createdOn\":\"Mac\",\"createdBy\":\"AmplifySandbox\",\"createdWith\":\"1.18.2\",\"stackType\":\"api-AppSync\",\"metadata\":{\"dataSources\":\"dynamodb\",\"authorizationModes\":\"amazon_cognito_identity_pools,amazon_cognito_user_pools,api_key,aws_iam\",\"customOperations\":\"\"}}",
  "Resources": {
   "amplifyDataGraphQLAPI42A6FA33": {
    "Type": "AWS::AppSync::GraphQLApi",
@@ -38,6 +38,8 @@
      }
     }
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/GraphQLAPI/Resource"
    }
@@ -52,9 +54,11 @@
      ]
     },
     "DefinitionS3Location": {
-     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/8f3653ddb92c8525f411d6998118c569b92fe8006e89796d37264f5907c9f49d.graphql"
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/b4b49e039d1d7629e8991789de770ed2575a617054a03520a7ad7d38ad519364.graphql"
     }
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/GraphQLAPI/TransformerSchema"
    }
@@ -68,8 +72,10 @@
       "ApiId"
      ]
     },
-    "Expires": 1735868593
+    "Expires": 1735872347
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/GraphQLAPI/DefaultApiKey"
    }
@@ -87,6 +93,8 @@
     "Name": "NONE_DS",
     "Type": "NONE"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/GraphQLAPI/NONE_DS/Resource"
    }
@@ -132,7 +140,7 @@
        {
         "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}"
        },
-       "/1865c0135d6768f9e2c3b3f555f744c153c6890e90e406f396ba6e04ffe2f4d2.json"
+       "/e93ea0743dd8c2edc202089dc42ac659c29eccf7b67970aae5fb1c8d51f95c02.json"
       ]
      ]
     }
@@ -222,7 +230,7 @@
        {
         "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}"
        },
-       "/ec89417a87e131343219016819e21adbdeca60798f7a554463e63349bbb7e7ad.json"
+       "/bcdcebfb483b57927f78096df381eec13bd89846a74d56bd8fd6d89586d5b40f.json"
       ]
      ]
     }
@@ -348,6 +356,8 @@
      "Version": "2012-10-17"
     }
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Policy/Resource"
    }
@@ -385,6 +395,8 @@
     },
     "Description": "/opt/awscli/aws"
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/AwsCliLayer/Resource",
     "aws:asset:path": "asset.f24ba5e516d9d80b64bc7b0f406eedd12c36b20e7461f3e7719b7ffbdad72410.zip",
@@ -451,6 +463,8 @@
      }
     ]
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role"
    }
@@ -498,6 +512,8 @@
    "DependsOn": [
     "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
    ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler",
     "aws:asset:path": "asset.faa95a81ae7d7373f3e1f242268f904eb748d8d0fdd306e8a6fe515a1905a7d6",
@@ -544,6 +560,8 @@
      }
     ]
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/Resource"
    }
@@ -641,6 +659,8 @@
      }
     ]
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/DefaultPolicy/Resource"
    }
@@ -689,6 +709,8 @@
     "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleDefaultPolicyFF1C635B",
     "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleA41FC8C2"
    ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/Resource",
     "aws:asset:path": "asset.c6358465bf49dfae556bb430bf9c81fa578c221b82c308e3707901b1dd654762",
@@ -712,6 +734,8 @@
      ]
     }
    },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-awsamplifygen2-showboat-sandbox-b0278e94b6/data/AMPLIFY_DATA_GRAPHQL_ENDPOINTParameter/Resource"
    }
